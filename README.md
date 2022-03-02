@@ -1,4 +1,4 @@
-# JavaScript Challenge: Password Generator
+# Web APIs Challenge: Code Quiz
 
 ## Description
 
@@ -37,7 +37,7 @@ A link to the [code](https://github.com/jgarcia45/code-quiz):
 https://github.com/jgarcia45/code-quiz
 ```
 
-A link to the deployed [URL](https://jgarcia45.github.io/password-generator/):
+A link to the deployed [URL](https://jgarcia45.github.io/code-quiz/):
 ```
-https://jgarcia45.github.io/password-generator/
+https://jgarcia45.github.io/code-quiz/
 ```

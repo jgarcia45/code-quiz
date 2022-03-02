@@ -1,7 +1,8 @@
 # Web APIs Challenge: Code Quiz
+[![MSU](https://img.shields.io/badge/MSU-Coding%20Bootcamp-green/)](https://bootcamp.msu.edu/)
 
 ## Description
-
+Our tasks for the challenge is to create a timed coding quiz with multiple-choice questions.  The application will run in the browser and feature dynamically updated HTML and CSS.  The application will also be powered by JavaScript written by me and have a responsive user interface.
 
 ## User Story
 
@@ -40,4 +41,4 @@ https://github.com/jgarcia45/code-quiz
 A link to the deployed [URL](https://jgarcia45.github.io/code-quiz/):
 ```
 https://jgarcia45.github.io/code-quiz/
-```
+``` 

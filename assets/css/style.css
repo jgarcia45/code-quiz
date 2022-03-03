@@ -10,6 +10,8 @@
 
 /* Header Styling */
 header {
+    display: flex;
+    justify-content: space-between;
     color: var(--primary);
 }
 a:link {
@@ -18,14 +20,19 @@ a:link {
 a:visited {
     text-decoration: none;
 }
+.timer {
+    justify-content: flex-end;
+}
 
 /* Main Styling */
 main {
     text-align: center;
+    font-size:x-large;
 }
 
 /* Button Styling */
 button {
     color: aliceblue;
     background-color: var(--primary);
+    border-radius: 15px;
 }

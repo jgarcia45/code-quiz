@@ -1,5 +1,6 @@
+//Variable Definitions
 var beginQuiz = document.querySelector("#start-quiz");
-
+var questions = document.querySelector("#display-questions");
 
 // Function to Start Quiz
 var startQuiz = function (event) {

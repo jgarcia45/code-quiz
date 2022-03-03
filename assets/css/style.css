@@ -1,0 +1,21 @@
+/* Header Styling */
+header {
+    color: plum;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+
+/* Main Styling */
+main {
+    text-align: center;
+}
+
+/* Button Styling */
+button {
+    color: aliceblue;
+    background-color: plum;
+}

@@ -28,7 +28,7 @@ THEN I can save my initials and score
 ```
 
 ## Screenshot
-Here is a preview of the website before the application starts: ![]()
+Here is a preview of the website before the application starts: ![Intro](./assets/images/intro.png)
 Here is a preview of the website after the application ends: ![]()
 
 ## Link

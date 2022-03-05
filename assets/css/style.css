@@ -31,7 +31,7 @@ main {
 }
 
 /* Button Styling */
-button {
+.btn {
     color: aliceblue;
     background-color: var(--primary);
     border-radius: 15px;

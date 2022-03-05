@@ -14,11 +14,35 @@
         <div class="scores" id="high-scores"><a href="./highscores.html">View High Scores</a></div>
         <div class="timer" id="timer-start">Time: 60</div>
     </header>
-    <main class="questions" id="display-questions">
-        <h1 id="question-zone">Coding Quiz Challenge</h1>
-        <p id="multiple-choice">Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers
-            will penalize your score/time by ten seconds!</p>
-        <button class="btn" id="start-quiz">Start Quiz</button>
+    <main>
+        <!-- Start Quiz -->
+        <div id="quiz-info">
+            <h1>Coding Quiz Challenge</h1>
+            <p>Try to answer the following code-related questions within the time limit. Keep in
+                mind
+                that incorrect answers
+                will penalize your score/time by ten seconds!</p>
+            <button class="btn" id="start-quiz">Start Quiz</button>
+        </div>
+
+        <!-- Multiple Choice -->
+        <div class="" id="multiple-choice">
+            <h1 id="question"></h1>
+            <ul>
+                <button id="choice1"></button>
+                <button id="choice2"></button>
+                <button id="choice3"></button>
+                <button id="choice4"></button>
+            </ul>
+        </div>
+
+        <!-- Results -->
+        <div id="results">
+            <h1 id="all-done"></h1>
+            <p id="final-score"></p>
+            <p id="enter-name"></p>
+        </div>
+
     </main>
     <script src="./assets/js/script.js"></script>
 </body>

@@ -10,6 +10,7 @@ var choice3 = document.querySelector("#choice3");
 var choice4 = document.querySelector("#choice4");
 var score = 0; // User Score
 var timeLeft = 59; // Start Timer (Begins at 59 because of 1 sec delay in countDonw())
+var enterScore= document.querySelector("#enter-score");
 
 // Creating the questions with answers and storing them in an array as an object
 var quizQuestions = [
@@ -76,11 +77,11 @@ var startQuiz = function (event) {
         choice4.textContent = quizQuestions[i].choices[3];
         //console.log(choice1.textContent);
 
-        if(choice1.textContent === quizQuestions.answer) {
+        if (choice1.textContent === quizQuestions.answer) {
             console.log("no");
-        } else if(choice2.textContent === quizQuestions.answer) {
+        } else if (choice2.textContent === quizQuestions.answer) {
             console.log("no");
-        } else if(choice3.textContent === quizQuestions.answer) {
+        } else if (choice3.textContent === quizQuestions.answer) {
             console.log("no");
         } else {
             console.log("didnt check");
@@ -90,13 +91,25 @@ var startQuiz = function (event) {
 };
 
 var endQuiz = function () {
-    // multipleChoice.setAttribute("style", "display: none;");
+    var done = document.querySelector("#all-done");
+    var finalScore = document.querySelector("#final-score");
+    var name = document.querySelector("#initials");
+
+    done.textContent = "All done!"
+    finalScore.textContent = "Your final score is " + score
+    name.textContent = "Enter initials: "
 
 };
 
 // Saves the high scores in local storage
 var saveScores = function () {
+    var userinitials = document.querySelector("#init");
+    var user = {
+        initials: userinitials,
+        highScore: score
+    }
 
+    localStorage.setItem("highscores", JSON.stringify(user));
 };
 
 var loadScores = function () {
@@ -105,3 +118,4 @@ var loadScores = function () {
 
 // Create a new task
 beginQuiz.addEventListener("click", startQuiz);
+enterScore.addEventListener("submit", saveScores);

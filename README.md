@@ -1,11 +1,15 @@
 # Web APIs Challenge: Code Quiz
 [![MSU](https://img.shields.io/badge/MSU-Coding%20Bootcamp-green/)](https://bootcamp.msu.edu/)
 
+## Technologies
+![Technologies](https://img.shields.io/badge/-HTML-E34F26?logo=html5&logoColor=white)
+![Technologies](https://img.shields.io/badge/-CSS-1572B6?logo=css3&logoColor=white)
+![Technologies](https://img.shields.io/badge/-JavaScript-007396?logo=JavaScript&logoColor=white)
+
 ## Description
 Our tasks for the challenge is to create a timed coding quiz with multiple-choice questions.  The application will run in the browser and feature dynamically updated HTML and CSS.  The application will also be powered by JavaScript written by me and have a responsive user interface.
 
 ## User Story
-
 ```
 AS A coding boot camp student
 I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
@@ -32,7 +36,6 @@ Here is a preview of the website before the application starts: ![Intro](./asset
 Here is a preview of the website after the application ends: ![]()
 
 ## Link
-
 A link to the [code](https://github.com/jgarcia45/code-quiz):
 ```
 https://github.com/jgarcia45/code-quiz

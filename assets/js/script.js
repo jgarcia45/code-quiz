@@ -64,10 +64,10 @@ function countDown() {
 
 
 // Function to Start Quiz
-var startQuiz = function (event) {
-    event.preventDefault();
+var startQuiz = function () {
     countDown();
     infoQuiz.setAttribute("style", "display: none;");
+    multipleChoice.setAttribute("style","display: initial");
 
     for (i = 0; i < quizQuestions.length; i++) {
         displayQuestion.textContent = quizQuestions[i].question;
@@ -118,4 +118,5 @@ var loadScores = function () {
 
 // Create a new task
 beginQuiz.addEventListener("click", startQuiz);
-enterScore.addEventListener("submit", saveScores);
+
+//document.getElementById(id).style.property = new style

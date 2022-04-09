@@ -14,12 +14,15 @@ header {
     justify-content: space-between;
     color: var(--primary);
 }
+
 a:link {
     text-decoration: none;
 }
+
 a:visited {
     text-decoration: none;
 }
+
 .timer {
     justify-content: flex-end;
 }
@@ -27,7 +30,12 @@ a:visited {
 /* Main Styling */
 main {
     text-align: center;
-    font-size:x-large;
+    font-size: x-large;
+}
+
+#results,
+#multiple-choice {
+    display: none;
 }
 
 /* Button Styling */
